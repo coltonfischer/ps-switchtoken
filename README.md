@@ -16,7 +16,11 @@ Add the _PS-SwitchToken_ bookmarklet to your browser’s bookmarks, login to the
 
 The page will refresh and you will be authenticated as the new user if the script was successful.
 
-_tip_: If you do not want to input the node password each time, then you can hardcode the password on line 92 of the code.
+_tip_: If you do not want to input the node password each time, then you can hardcode the password on line 91 of the code.
+
+Demo:
+
+[![PS-SwitchToken Demo](http://www.peoplesoftmods.com/Images/PS-SwitchToken_Demo.gif)]
 
 ### Troubleshooting
 - This utility is unable to work with certain formats of the PS_TOKEN.  If you have an unsupported format, then the script will output `Invalid or unsupported token format`.  
