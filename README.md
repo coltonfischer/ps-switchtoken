@@ -16,7 +16,7 @@ Add the [PS-SwitchToken](javascript:(function()%7Bfunction%20callback%28%29%7Bpa
 
 The page will refresh and you will be authenticated as the new user if the script was successful.
 
-_tip_: If you do not want to input the node password each time, then you can hardcode the password on line 91 of the code.
+_tip_: If you do not want to input the node password each time, then you can hardcode the password on [this line of the code](https://github.com/coltonfischer/PS-SwitchToken/blob/master/PS-SwitchToken.js#L91).
 
 Demo:
 
