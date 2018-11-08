@@ -88,7 +88,7 @@ javascript: (function() {
         var time = strData.substring(loc, loc + data[loc - 1]).replace(/\x00/g, '');
 
         /* Change this to the node's password if you do not want to be prompted for a password */
-        var password = 'password';
+        var password = 'PS';
         var errMsg = '';
 
         while (true) {
