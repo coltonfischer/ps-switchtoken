@@ -20,7 +20,7 @@ _tip_: If you do not want to input the node password each time, then you can har
 
 Demo:
 
-[![PS-SwitchToken Demo](http://www.peoplesoftmods.com/Images/PS-SwitchToken_Demo.gif)]
+![PS-SwitchToken Demo](PS-SwitchToken_Demo.gif)
 
 ### Troubleshooting
 - This utility is unable to work with certain formats of the PS_TOKEN.  If you have an unsupported format, then the script will output `Invalid or unsupported token format`.  
