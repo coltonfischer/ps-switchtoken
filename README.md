@@ -26,6 +26,7 @@ Demo:
 - This utility is unable to work with certain formats of the PS_TOKEN.  If you have an unsupported format, then the script will output `Invalid or unsupported token format`.  
 - If you are taken to the login page with the message `Illegal identity switch has been detected by the System. Please re-login` after invoking the script, then it possible that the user you are logged in as does not have `Switch User` enabled.
 - If the new user session does not kick in after invoking the script, then ensure that the User ID is valid and is not locked out.
+- If you have a PS_TOKEN cookie in the browser, but receive the message `PS_TOKEN cookie not detected in browser.`, then ensure the `HTTPOnly` setting is disabled for the PS_TOKEN cookie under the `Cookie Rules` tab of the Web Profile.
 
 ### Acknowledgements
 This utility is merely a JavaScript port of [Alexey Tyurin’s TokenChpoken python script](https://erpscan.com/press-center/blog/peoplesoft-security-part-4-peoplesoft-pentest-using-tokenchpoken-tool/).  Credit and thanks to Alexey and the ERPScan team for their PS_TOKEN research efforts.  
